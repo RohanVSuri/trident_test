@@ -28,7 +28,7 @@ trident fuzz run-debug fuzz_0 trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/f
 
 ## Explanation
 ### Bug
-In `lib.rs`, we have `initialize` and `update` which stores a `u8` inside of `User`. `update` should require the `verify` parameter to be divisible by 4, but instead it has a "typo" and checks if it is divisible by 5. 
+In `lib.rs`, we have `initialize` and `update` which stores a `u64` inside of `User`. `update` should require the `verify` parameter to be divisible by 4, but instead it has a "typo" and checks if it is divisible by 5. 
 
 ### Fuzzer
 Now, looking at `fuzz_instructions.rs`, we are checking whether the call was valid through of the `check()` function, where we make sure that whatever `verify` passed in is divisible by 4 (which it will catch an error for). 
