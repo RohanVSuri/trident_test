@@ -1,0 +1,92 @@
+=====================================================================
+TIME: 2024-06-12.16:20:23
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: f0d4f6ff9099903d189e26908419f71f.0000003f.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7c7100b.STACK.1bd25de105.CODE.-6.ADDR.0.INSTR.mov____0x108(%rsp),%rax.fuzz
+PID: 20900
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c7100b
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____0x108(%rsp),%rax
+STACK HASH: 0000001bd25de105
+STACK:
+ <0x00007ffff7c50859> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc-2.31.so]
+ <0x000055555631ba57> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555567bfd6> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555894a26> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555634c191> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555634bef0> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555634be46> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555634be33> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f15c4> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555571df27> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555ef0d6> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556f5943> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556eb7fe> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556ea4fa> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556ea4d8> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555631b7cd> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556ea520> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7c52083> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc-2.31.so]
+ <0x000055555568244e> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-06-12.16:54:55
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: f0d4f6ff9099903d189e26908419f71f.0000003f.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7c7100b.STACK.1bd25de105.CODE.-6.ADDR.0.INSTR.mov____0x108(%rsp),%rax.fuzz
+PID: 53878
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c7100b
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____0x108(%rsp),%rax
+STACK HASH: 0000001bd25de105
+STACK:
+ <0x00007ffff7c50859> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc-2.31.so]
+ <0x000055555631ba57> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555567bfd6> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555894a26> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555634c191> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555634bef0> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555634be46> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555634be33> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f15c4> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555571df27> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555ef0d6> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556f5945> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556eb7fe> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556ea4fa> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556ea4d8> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555631b7cd> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556ea520> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7c52083> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc-2.31.so]
+ <0x000055555568244e> [func:UNKNOWN file: line:0 module:/workspaces/codespaces-blank/test_anchor/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
